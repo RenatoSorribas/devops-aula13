@@ -7,7 +7,7 @@
 </div>
 
 <table class="table">
-    <tr><th>Nome do Candidato</th><th>Nome</th><th>RG</th><th>CPF</th><th>Endereço</th><th>Telefone</th></tr>
+    <tr><th>Nome do Candidato</th><th>RG</th><th>CPF</th><th>Endereço</th><th>Telefone</th></tr>
         {% for candidato in candidatos %}
           <tr><td>{{ candidato.nome }}</td><td>{{ candidato.rg }}</td><td>{{ candidato.cpf }}</td><td>{{ candidato.endereco }}</td><td>{{ candidato.telefone }}</td></tr>
         {% endfor %}
